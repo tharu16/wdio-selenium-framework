@@ -8,13 +8,13 @@ pipeline {
 			steps {
 				echo 'Building...'
 				//sh'npm install'
-				sh 'npm config ls'
+				bat 'run-test.bat'
 			}
 		}
 		stage('Test') {
 			steps {
 				echo 'Testing...'
-				sh 'npm run test'
+				//sh 'npm run test'
 			}
 		}
 	}
