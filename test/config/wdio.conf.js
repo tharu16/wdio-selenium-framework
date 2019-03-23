@@ -132,7 +132,7 @@ exports.config = {
             disableWebdriverStepsReporting: true,
             disableWebdriverScreenshotsReporting: false,
           }
-        ],
+        ]
      ],
     //
     // Options to be passed to Mocha.
