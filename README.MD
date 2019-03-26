@@ -6,12 +6,17 @@ using Mocha BDD framework, Chai Assertion library and page object pattern techni
 ### Installation
 
 This project is tested on following env:
+```
 OS - Windows 10
 Node - v8.11.1
+```
 
 Please follow this site https://nodejs.org/en/ to install node in windows
 Once after successfull installtion , navigate to project root directory and run: 
-npm install to install project dependencies
+```
+npm install 
+```
+to install project dependencies
 
 ### Run Sample tests:
 
